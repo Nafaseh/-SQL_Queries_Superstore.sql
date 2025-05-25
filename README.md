@@ -1,3 +1,26 @@
+# SQL Queries for Superstore Sales Analysis
+
+This file contains SQL queries designed to extract insights from the Superstore dataset, including:
+
+- Total profit by region
+- Revenue by segment
+- Average profit by category
+- Top 5 products by sales
+- Monthly sales trends
+- Profitability by region and segment
+- Top 3 categories by quantity sold
+
+These queries demonstrate the ability to work with SQL for data analysis, generate business insights, and support decision-making processes.
+
+The dataset used is the `Superstore_Orders_Sample.csv` file, which contains information on orders, customers, products, sales, and profit for a fictional Superstore.
+
+## How to Use
+
+1. Import the Superstore dataset into your SQL environment (e.g., SQLite, MySQL, or PostgreSQL).
+2. Run the SQL queries to generate insights and perform exploratory data analysis.
+
+Happy analyzing!
+
 # -SQL_Queries_Superstore.sql
 -- 1. Total Profit by Region
 SELECT Region, SUM(Profit) AS Total_Profit

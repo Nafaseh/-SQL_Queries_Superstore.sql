@@ -65,3 +65,29 @@ FROM Superstore_Orders_Sample
 GROUP BY Category
 ORDER BY Total_Quantity DESC
 LIMIT 3;
+# Superstore Sales Analysis
+
+This project analyzes sales data from a fictional superstore to uncover insights into sales performance, customer behavior, and product trends.
+
+## 📊 SQL Queries for Superstore Sales Analysis
+
+This file contains SQL queries designed to extract insights from the Superstore dataset, including:
+
+- Total profit by region
+- Revenue by segment
+- Average profit by category
+- Top 5 products by sales
+- Monthly sales trends
+- Profitability by region and segment
+- Top 3 categories by quantity sold
+
+These queries demonstrate the ability to work with SQL for data analysis, generate business insights, and support decision-making processes.
+
+The dataset used is the `Superstore_Orders_Sample.csv` file, which contains information on orders, customers, products, sales, and profit for a fictional Superstore.
+
+## 📊 Google Sheets Pivot Table Analysis
+
+- [Pivot Table Analysis - Region-wise Profit (PDF)](./Superstore_Region_Profit_PivotTable.pdf)
+
+This PDF inc
+
